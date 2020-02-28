@@ -132,7 +132,12 @@ public class App {
     tag = EnumTag.ID;
     tempDoc = null;
     bufferString = "";
+
+    // refactor choice, LinkedHashMap will ensure the order of the data
+    // while HashMap don't
+    // the id of the QRelsCorrectedforTRECeval is incremental, not like cran.qry
     Map<Integer, String> qryMap225 = new LinkedHashMap<>();
+
     cur = -1;
     String idStr = "";
     while ((str = bufferedReaderQ.readLine()) != null) {
