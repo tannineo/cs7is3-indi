@@ -15,3 +15,6 @@ trec_eval-9.0.7
 
 # java generated
 target
+
+# result
+result_*
