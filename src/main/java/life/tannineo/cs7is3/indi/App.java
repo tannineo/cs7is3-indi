@@ -52,6 +52,7 @@ public class App {
   static String INDEX_PATH = "genIndex";
   static String RESULT_PATH_PREFIX = "result_";
   static int HITS_PER_PAGE = 25;
+  static int MU = 120;
 
   public static void main(String[] args) throws IOException {
 
@@ -176,7 +177,7 @@ public class App {
     Map<String, Similarity> simMap = new HashMap<>();
     simMap.put("ClassicSimilarity", new ClassicSimilarity());
     simMap.put("BM25Similarity", new BM25Similarity());
-    simMap.put("LMDirichletSimilarity", new LMDirichletSimilarity());
+    simMap.put("LMDirichletSimilarity", new LMDirichletSimilarity(App.MU));
 
     Path indexPath = Paths.get(App.INDEX_PATH);
 
