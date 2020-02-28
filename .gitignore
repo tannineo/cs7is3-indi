@@ -21,3 +21,6 @@ trec_eval
 
 # pem
 cs7is3.pem
+
+# ignore the generated index
+genIndex
