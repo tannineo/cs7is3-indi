@@ -258,7 +258,7 @@ public class App {
       String[] modStrs = modStr.split(" ");
       for (String str : modStrs) {
         if (!str.equals("and") && !str.equals("")) {
-          doc.add(new TextField(EnumTag.AUTHORS.getFieldName(), modStr, Field.Store.YES));
+          doc.add(new StringField(EnumTag.AUTHORS.getFieldName(), modStr, Field.Store.YES));
           System.out.println("AUTHOR->" + str);
           cnt++;
         }
