@@ -4,8 +4,14 @@ trec_eval-9.0.7
 # OSX files
 .DS_Store
 
+# vscode
+.vscode
+
 # generated & language server files
 .settings
 .project
 .classpath
+.factorypath
+
+# java generated
 target
