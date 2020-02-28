@@ -79,3 +79,20 @@ Once the program get compiled and runned. Run a command like this to see the eva
 ```sh
 ./trec_eval QRelsCorrectedforTRECeval data/result_WhitespaceAnalyzer_LMDirichletSimilarity
 ```
+
+## Requirement
+
+The AWS instance is using `openjdk-8`:
+
+```txt
+user4ta@ip-172-31-35-243:~/cs7is3-indi$ java -version
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-8u242-b08-0ubuntu3~18.04-b08)
+OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
+```
+
+`gcc` info:
+
+```txt
+gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)
+```
