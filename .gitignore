@@ -1,5 +1,10 @@
 lucene-tutorial-code
+trec_eval-9.0.7
 
+# OSX files
 .DS_Store
 
-trec_eval-9.0.7
+# language server files
+.settings
+.project
+.classpath
