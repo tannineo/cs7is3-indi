@@ -16,10 +16,8 @@ trec_eval-9.0.7
 # java generated
 target
 
-# result
-result_*
-!result_*.gnuplot
-!result_*.png
+# compiled trec_eval
+trec_eval
 
 # pem
 cs7is3.pem
