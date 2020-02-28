@@ -4,7 +4,8 @@ trec_eval-9.0.7
 # OSX files
 .DS_Store
 
-# language server files
+# generated & language server files
 .settings
 .project
 .classpath
+target
