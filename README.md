@@ -4,10 +4,6 @@ the individual assignment for CS7IS3-Information Retrieval.
 
 ## IMPORTANT
 
-the host: `54.224.88.97`.
-
-a account with sudo permit is ready for TA: `user4ta / HXfEmkrh`.
-
 the project is under the home directory of the user.
 
 project root: `~/cs7is3-indi`.
